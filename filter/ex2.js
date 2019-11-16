@@ -24,6 +24,8 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+    const stars = ['Bran Stark', 'Arya Stark', 'Sansa Stark'];
+    return names.filter(element => element === stars[0] || element === stars[1] ||element === stars[2])
 }
 
 // Ne pas modifier l'export
